@@ -8,7 +8,7 @@ Bạn có thể lưu trữ file code, text, hình ảnh hoặc bất kỳ loại
 
 - Vào Github, đăng ký một tài khoản bằng cách click vào “Sign up for Github”.
 
-//(Xem hướng dẫn tạo tài khoản ở file:
+(Xem hướng dẫn tạo tài khoản ở file: https://github.com/thongngoduc/Hocviec/blob/main/Ng%C3%B4%20%C4%90%E1%BB%A9c%20Th%C3%B4ng/Bu%E1%BB%95i%202/C%C3%A1ch%20t%E1%BA%A1o%20m%E1%BB%99t%20GitHub%20Repository.md)
 
 - Sau khi đăng ký và kích hoạt thành công. Bạn bắt đầu tạo mới một project với “Start a new project”.
 Bạn có thể xem hình bên dưới cho rõ thêm nhé:
