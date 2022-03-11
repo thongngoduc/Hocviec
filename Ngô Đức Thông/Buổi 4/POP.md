@@ -1,22 +1,20 @@
-﻿1. **Giao thức POP**
+**1. Giao thức POP**
 
 Giao thức POP là viết tắt của Post Office Protocol. Như chúng ta biết rằng SMTP được sử dụng như một tác nhân truyền thông điệp. Khi tin nhắn được gửi đi, SMPT được sử dụng để gửi tin nhắn từ máy khách đến máy chủ và sau đó đến máy chủ người nhận. Nhưng thông báo được gửi từ máy chủ người nhận đến máy chủ thực tế với sự trợ giúp của Tác nhân truy cập thông báo. Tác nhân truy cập thông báo chứa hai loại giao thức, tức là, POP3 và IMAP.
 
-1. **Thư được truyền đi như thế nào?**
+**2. Thư được truyền đi như thế nào?**
 
-![Giao thức POP](Aspose.Words.f7f89c9e-9acd-4765-a701-2f86a2ec90bd.001.png)
+![image](https://user-images.githubusercontent.com/65167293/157800139-7dc5fb97-a81e-4a8f-9584-e0faa572f647.png)
 
 Giả sử người gửi muốn gửi thư cho người nhận. Thư đầu tiên được truyền đến máy chủ thư của người gửi. Sau đó, thư được truyền từ máy chủ thư của người gửi đến máy chủ thư của người nhận qua internet. Khi nhận thư tại máy chủ thư của người nhận, thư sau đó sẽ được gửi đến người dùng. Toàn bộ quá trình được thực hiện với sự trợ giúp của các giao thức Email. Việc truyền thư từ người gửi đến máy chủ thư của người gửi và sau đó đến máy chủ thư của người nhận được thực hiện với sự trợ giúp của giao thức SMTP. Tại máy chủ thư của người nhận, giao thức POP hoặc IMAP lấy dữ liệu và truyền đến người dùng thực tế.
 
 Vì SMTP là một giao thức đẩy nên nó sẽ đẩy thông điệp từ máy khách đến máy chủ. Như chúng ta có thể quan sát trong hình trên rằng SMTP đẩy thư từ máy khách đến máy chủ thư của người nhận. Giai đoạn thứ ba của giao tiếp email yêu cầu một giao thức kéo và POP là một giao thức kéo. Khi thư được truyền từ máy chủ thư của người nhận đến máy khách có nghĩa là máy khách đang kéo thư từ máy chủ.
 
-1. **POP3 là gì?**
+**3. POP3 là gì?**
 
 POP3 là một giao thức đơn giản và có chức năng rất hạn chế. Trong trường hợp của giao thức POP3, máy khách POP3 được cài đặt trên hệ thống người nhận trong khi máy chủ POP3 được cài đặt trên máy chủ thư của người nhận.
 
-
-
-1. **Lịch sử của giao thức POP3**
+**4. Lịch sử của giao thức POP3**
 
 Phiên bản đầu tiên của giao thức bưu điện được giới thiệu lần đầu tiên vào năm 1984 với tên gọi RFC 918 trên Internet
 
@@ -28,13 +26,13 @@ Mặc dù giao thức POP3 đã trải qua nhiều cải tiến khác nhau, các
 
 Hãy hiểu hoạt động của giao thức POP3 qua sơ đồ sau:
 
-![Giao thức POP](Aspose.Words.f7f89c9e-9acd-4765-a701-2f86a2ec90bd.002.png)
+![image](https://user-images.githubusercontent.com/65167293/157800232-1522e7cb-8561-4fcb-9b58-698bf3a11316.png)
 
 Để thiết lập kết nối giữa máy chủ POP3 và máy khách POP3, máy chủ POP3 yêu cầu tên người dùng cho máy khách POP3. Nếu tên người dùng được tìm thấy trong máy chủ POP3, thì nó sẽ gửi thông báo ok. Sau đó, nó yêu cầu mật khẩu từ máy khách POP3; sau đó máy khách POP3 gửi mật khẩu đến máy chủ POP3. Nếu mật khẩu được khớp, thì máy chủ POP3 sẽ gửi thông báo OK và kết nối được thiết lập. Sau khi thiết lập kết nối, khách hàng có thể xem danh sách các thư trên máy chủ thư POP3. Trong danh sách các thư, người dùng sẽ nhận được số lượng và kích thước email từ máy chủ. Ngoài danh sách này, người dùng có thể bắt đầu truy xuất thư.
 
 Sau khi máy khách truy xuất tất cả các email từ máy chủ, tất cả các email từ máy chủ sẽ bị xóa. Do đó, chúng ta có thể nói rằng các email được giới hạn cho một máy cụ thể, vì vậy sẽ không thể truy cập vào các email giống nhau trên một máy khác. Tình trạng này có thể được khắc phục bằng cách định cấu hình cài đặt email để để lại một bản sao của thư trên máy chủ thư.
 
-1. **Ưu điểm của giao thức POP3**
+**5. Ưu nhược điểm của giao thức POP3**
 
 ***Sau đây là những ưu điểm của giao thức POP3:***
 
@@ -45,7 +43,9 @@ Sau khi máy khách truy xuất tất cả các email từ máy chủ, tất c�
 - Có kích thước tối đa trên hộp thư, nhưng nó bị giới hạn bởi kích thước của đĩa cứng.
 - Nó là một giao thức đơn giản nên nó là một trong những giao thức phổ biến nhất được sử dụng hiện nay.
 - Nó rất dễ dàng để cấu hình và sử dụng.
-1. **Nhược điểm của giao thức POP3**
+
+
+***Nhược điểm của giao thức POP3***
 
 Sau đây là những ưu điểm của giao thức POP3:
 
