@@ -7,44 +7,44 @@
 - ![](Aspose.Words.aaf3bc5d-6144-458f-a943-7a900aed8e58.002.png)HTTP
 - HTTPS
 
-- FTP  https://github.com/thongngoduc/Hocviec/blob/main/Ng%C3%B4%20%C4%90%E1%BB%A9c%20Th%C3%B4ng/Bu%E1%BB%95i%204/FTP.docx
-- SMTP https://github.com/thongngoduc/Hocviec/blob/main/Ng%C3%B4%20%C4%90%E1%BB%A9c%20Th%C3%B4ng/Bu%E1%BB%95i%204/SMTP.docx
-- POP  https://github.com/thongngoduc/Hocviec/blob/main/Ng%C3%B4%20%C4%90%E1%BB%A9c%20Th%C3%B4ng/Bu%E1%BB%95i%204/POP.docx
-- IMAP  https://github.com/thongngoduc/Hocviec/blob/main/Ng%C3%B4%20%C4%90%E1%BB%A9c%20Th%C3%B4ng/Bu%E1%BB%95i%204/IMAP.docx
+- FTP https://github.com/thongngoduc/Hocviec/blob/main/Ng%C3%B4%20%C4%90%E1%BB%A9c%20Th%C3%B4ng/Bu%E1%BB%95i%204/FTP.md
+- SMTP https://github.com/thongngoduc/Hocviec/blob/main/Ng%C3%B4%20%C4%90%E1%BB%A9c%20Th%C3%B4ng/Bu%E1%BB%95i%204/SMTP.md
+- POP https://github.com/thongngoduc/Hocviec/blob/main/Ng%C3%B4%20%C4%90%E1%BB%A9c%20Th%C3%B4ng/Bu%E1%BB%95i%204/POP.md
+- IMAP  https://github.com/thongngoduc/Hocviec/blob/main/Ng%C3%B4%20%C4%90%E1%BB%A9c%20Th%C3%B4ng/Bu%E1%BB%95i%204/IMAP.md
 
 Bắt đầu thôi nào,
-1. # **HTTP** 
-1. Giao thức HTTP là gì?
+
+ # **HTTP** 
+ 
+**1. Giao thức HTTP là gì?**
 
 **HTTP** (**H**yper**T**ext **T**ransfer **P**rotocol – Giao thức truyền tải siêu văn bản) là một trong các giao thức chuẩn về mạng Internet, được dùng để **liên hệ thông tin** giữa Máy cung cấp dịch vụ (Web server) và Máy sử dụng dịch vụ (Web client), là giao thức Client/Server dùng cho World Wide Web – WWW
 
 **Giao thức HTTP** là một giao thức tầng ứng dụng của **bộ giao thức TCP/IP** (các giao thức nền tảng cho Internet).
 
-![bo giao thuc tcp ip](Aspose.Words.aaf3bc5d-6144-458f-a943-7a900aed8e58.003.jpeg)
+![image](https://user-images.githubusercontent.com/65167293/157801492-e887c1d6-0214-4349-ad20-3bf0231724e0.png)
 
-1. Cách hoạt động giao thức HTTP
+**2. Cách hoạt động giao thức HTTP**
 
 Giao thức HTTP hoạt động dựa trên mô hình Client – Server. Thông thường khi các bạn lướt web, các máy tính của người dùng sẽ đóng vai trò làm máy khách (Client). Sau một thao tác nào đó của người dùng, các máy khách sẽ gửi yêu cầu đến máy chủ (Server) và chờ đợi câu trả lời từ những máy chủ này.
 
-![giao thuc http](Aspose.Words.aaf3bc5d-6144-458f-a943-7a900aed8e58.004.jpeg)
+![image](https://user-images.githubusercontent.com/65167293/157801525-8e052767-8f94-44a3-b067-13d178876c6b.png)
 
 Ngoài ra, khi các hệ thống trao đổi dữ liệu với nhau, chúng cũng sử dụng giao thức này nhưng 2 bên đều là server.
 
-1. HTTP – Requests
+**3. HTTP – Requests**
 
 Một HTTP client (máy khách) gửi một HTTP request (yêu cầu) lên server (máy chủ) nhờ một thông điệp có định dạng như sau:
 
-<method> <request-URL> <http-serverion>
-
-<headers>
-
-<body>
+      <method> <request-URL> <http-serverion>
+      <headers>
+      <body>
 
 Ví dụ:
 
-![http request](Aspose.Words.aaf3bc5d-6144-458f-a943-7a900aed8e58.005.jpeg)
+![image](https://user-images.githubusercontent.com/65167293/157802236-6799d870-c090-4b1b-a62a-d6335b16f9e2.png)
 
-1. **Request Line**
+**a. Request Line**
 
 Bắt đầu của HTTP Request sẽ là dòng Request-Line bao gồm 3 thông tin:
 
@@ -71,13 +71,13 @@ Báo cho Server rằng hành động sẽ phải sử lý với thông tin đư�
 - OPTIONS: trả về phương thức HTTP mà server hỗ trợ.
 - CONNECT: chuyển kết nối của HTTP request thành một kết nối HTTP tunnel.
 
-![cac phuong thuc http](Aspose.Words.aaf3bc5d-6144-458f-a943-7a900aed8e58.006.jpeg)
+![image](https://user-images.githubusercontent.com/65167293/157801792-c05b2402-4f30-4db6-a185-2c3cabf1111c.png)
 
 **Request URL**
 
 Một URL (Uniform Resource Locator) được sử dụng để xác định duy nhất một tài nguyên trên Web. Một URL có cấu trúc như sau:
 
-protocol://hostname:port/path-and-file-name
+      protocol://hostname:port/path-and-file-name
 
 Trong một URL có 4 thành phần:
 
@@ -90,7 +90,7 @@ Trong một URL có 4 thành phần:
 
 HTTP version là Phiên bản giao thức HTTP đang sử dụng.
 
-1. **Request header**
+ **b. Request header**
 
 Tiếp theo dòng Request-Line là các trường Request-header, cho phép client gửi thêm các thông tin bổ sung về thông điệp HTTP request và về chính client. Một số trường thông dụng như:
 
@@ -123,7 +123,7 @@ HTTP response là bản tin trả về từ server sang client, trong đó sẽ 
 
 Định dạng gói tin HTTP response cũng gồm 3 phần chính là: Status line, Header và Body.
 
-![An HTTP response message](Aspose.Words.aaf3bc5d-6144-458f-a943-7a900aed8e58.007.jpeg)
+![image](https://user-images.githubusercontent.com/65167293/157801911-665abb09-b690-4b96-9423-7eae1c0e81f9.png)
 
 **Response Status**
 
@@ -175,7 +175,7 @@ Lỗi của server:
 - 501 Not Implemented: server không hỗ trợ chức năng client yêu cầu.
 - 503 Service Unavailable: Server bị quá tải, hoặc bị lỗi xử lý.
 
-![http code](Aspose.Words.aaf3bc5d-6144-458f-a943-7a900aed8e58.008.jpeg)
+![image](https://user-images.githubusercontent.com/65167293/157801961-2ba4f286-7c63-47ba-bc8b-ee8b823e385f.png)
 
 ***Response Header***
 
@@ -200,16 +200,18 @@ Postman hỗ trợ tất cả các phương thức HTTP (GET, POST, PUT, PATCH, 
 ***Soap UI***
 
 Soap UI là công cụ phổ biến để kiểm tra API Nó cho phép bạn kiểm tra APU Rest và Soap một cách dễ dàng. Công cụ này tạo ra các thử nghiệm nhanh chóng với các thao tác đơn giản, dễ thực hiện.
-1. # **HTTPS**
-1. Giao thức HTTPS là gì?
+
+ # **HTTPS**
+
+**1. Giao thức HTTPS là gì?**
 
 HTTPS viết tắt của Hyper Text Transfer Protocol Secure (giao thức truyền tải siêu văn bản bảo mật) là phiên bản an toàn của HTTP, giao thức mà nhờ đó dữ liệu được gửi giữa trình duyệt và trang web bạn đang kết nối. Chữ ‘S’ ở cuối HTTPS là viết tắt của “Secure” (Bảo mật)
 
 HTTPS cũng có những hoạt động giống như HTTP. Tuy nhiên, chúng được bổ sung SSL và TSL. Giao thức này đảm bảo không có bên thứ 3 đăng nhập được và đánh cắp thông tin. Dù cho bạn đang tìm kiếm thông tin bằng máy tính công cộng hay máy cá nhân thì HTTPS cũng sẽ đảm bảo thông tin liên lạc của bạn với máy chủ được bảo mật.
 
-![http to https 1](Aspose.Words.aaf3bc5d-6144-458f-a943-7a900aed8e58.009.jpeg)
+![image](https://user-images.githubusercontent.com/65167293/157802028-e5155db3-9e99-4371-8cb1-f247277f7f99.png)
 
-1. Bảo mật PKI –  Public Key Infrastructure
+*a. Bảo mật PKI –  Public Key Infrastructure*
 
 Cả hai giao thức TLS và SSL đều sử dụng hệ thống PKI (Public Key Infrastructure, hạ tầng khóa công khai) không đối xứng. Một hệ thống không đối xứng sử dụng hai “khóa” để mã hóa thông tin liên lạc, khóa “công khai” và khóa “riêng”. Bất cứ thứ gì được mã hóa bằng khoá công khai (public key) chỉ có thể được giải mã bởi khóa riêng (private key) và ngược lại.
 
@@ -223,14 +225,16 @@ Một hệ thống PKI hoàn chỉnh bao gồm các thành phần sau:
 - Thẻ chứng thực số – Digital certificates (DC)
 - Thẻ chứng thực bị CA thu hồi – Certificate revocation list (CRL)
 - Hệ thống phân phối thẻ – Certificate Distribution System (CDS)
-1. Chứng chỉ SSL là gì
+
+*b. Chứng chỉ SSL là gì*
 
 Khi yêu cầu kết nối giao thức HTTPS với trang web, đầu tiên trang web sẽ gửi chứng chỉ SSL tới trình duyệt của bạn. Chứng chỉ này chứa khóa công khai cần thiết để bắt đầu phiên bảo mật. Dựa trên trao đổi ban đầu này, trình duyệt và trang web sẽ bắt đầu giao thức SSL handshake (giao thức bắt tay). Giao thức SSL handshake liên quan đến việc tạo bí mật chia sẻ để thiết lập kết nối an toàn duy nhất giữa bạn và trang web.
 
 Khi sử dụng chứng chỉ SSL đáng tin cậy trong quá trình kết nối HTTPS, người dùng sẽ thấy biểu tượng ổ khóa trong thanh địa chỉ của trình duyệt. Khi một chứng chỉ Extended Validation Certificate được cài đặt trên một trang web, thanh địa chỉ sẽ chuyển sang màu xanh lá cây.
 
-![cai dat chung chi SSLhttps 2](Aspose.Words.aaf3bc5d-6144-458f-a943-7a900aed8e58.010.jpeg)
-1. # **Sự khác nhau giữa giao thức HTTP và HTTPS**
+![image](https://user-images.githubusercontent.com/65167293/157802106-bb31e39c-5002-4894-8ace-09cada4d8049.png)
+
+# **Sự khác nhau giữa giao thức HTTP và HTTPS**
 
 |TIÊU CHÍ|HTTP|HTTPS|
 | - | - | - |
@@ -240,7 +244,7 @@ Khi sử dụng chứng chỉ SSL đáng tin cậy trong quá trình kết nối
 |Mức độ bảo mật|Dữ liệu không được xác thực bảo mât|Xác thực đích danh của website. Giúp quá trình trao đổi thông điệp diễn ra an toàn|
 
 HTTP kết nối sẽ đơn giản hơn HTTPS nhưng phần bảo mật sẽ không được đảm bảo, dễ bị tấn công.
-1. # **Kết luận**
+ # **Kết luận**
 Giao thức HTTP và HTTPS và MQTT là các giao thức sử dụng rất rộng dãi khi làm các thiết bị IOT. Khi lập trình với các dòng chip như ESP8266, ESP32, các dòng SIMCOM, …. Vậy nên các bạn chú ý thật kỹ phần lý thuyết trên.
 # **TÀI LIỆU THAM KHẢO**
 
