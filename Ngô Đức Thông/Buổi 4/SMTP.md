@@ -2,15 +2,15 @@
 
 Mỗi công ty đều có mỗi địa chỉ email riêng biệt giúp gửi tài liệu hoặc hợp đồng cho đối tác trong và ngoài nước. Để làm được điều ấy, tất cả doanh nghiệp đều phải thông qua hệ thống SMTP giúp gửi, nhận email đơn giản hơn. Vậy giao thức SMTP là gì? Có chức năng ra sao?
 
-1. **Định nghĩa giao thức SMTP**
+**1. Định nghĩa giao thức SMTP**
 
 Simple Mail Transfer Protocol (viết tắt là SMTP) là hệ thống giao thức có nhiệm vụ nhận hay truyền tải dữ liệu trong email của người dùng. Hệ thống chỉ nhận và gửi thư điện tử email thông qua thiết bị có kết nối mạng Internet. Những thiết bị nhận và gửi email được gọi là máy chủ SMTP, mỗi máy chủ đều liên kết tới cổng mạng Internet 25 – cổng TCP.
 
 Đã có nhiều khách hàng nói rằng không cần biết máy chủ SMTP là gì, sử dụng như thế nào vẫn có thể gửi, nhận email thì đúng vậy, người dùng không xài SMTP vẫn sử dụng email bình thường. Tuy nhiên, đối với những email có chứa file hay video dung lượng lớn thì khó gửi được hoặc có khi không cho phép gửi, người dùng cần SMTP giúp giảm thời gian chuyển dữ liệu và cấp quyền gửi dữ liệu dung lượng lớn.
 
-![](Aspose.Words.8e82e7e2-0c34-48f7-8a03-c31d678390fd.001.png)
+![image](https://user-images.githubusercontent.com/65167293/157799843-f43e933d-b41d-42d8-8605-c8afda7fab20.png)
 
-1. **Hệ thống hoạt động của SMTP**
+**2.  Hệ thống hoạt động của SMTP**
 
 Khi doanh nghiệp gửi một email nào đó, hệ thống SMTP sẽ tự động dựa vào tên địa chỉ email đó và chuyển thông báo tới cho máy chủ SMTP. Sau khi SMTP server nhận được tín hiệu, tín hiệu sẽ được trao đổi giữa máy chủ SMTP và máy chủ DNS để tìm ra tên miền gốc tại Hostname trong máy chủ SMTP.
 
@@ -20,12 +20,12 @@ Nhằm đề phòng trường hợp máy chủ SMTP và máy chủ DNS có thể
 
 Hầu hết Email client (outlook, thunderbird, app trên điện thoại, webmail...) đều sử dụng giao thức SMTP để gửi và nhận thư.
 
-![](Aspose.Words.8e82e7e2-0c34-48f7-8a03-c31d678390fd.002.png)
+![image](https://user-images.githubusercontent.com/65167293/157799927-2b594cbf-83e7-4642-b7fe-ddd8cdc0d121.png)
 
-1. **Thông tin khác về SMTP cho mọi doanh nghiệp**
+**3.  Thông tin khác về SMTP cho mọi doanh nghiệp**
 
 Vào đầu năm 1980, giao thức SMTP bắt đầu được mọi doanh nghiệp sử dụng rộng rãi. Tuy nhiên vào thời gian đầu, hệ thống SMTP đơn giản chỉ là ứng dụng trong hệ thống UUCP (hệ thống sao chép dữ liệu của máy Unix sang máy Unix khác) giúp hệ thống này trao đổi thư từ điện tử dễ dàng hơn so với các thiết bị đương thời khác. Hiện nay, SMTP đã là một giao thức độc lập và hoạt động rất tốt nếu thiết bị gửi hoặc nhận email có kết nối Internet liên tục.
 
 SMTP có thể xem là khái niệm hoàn hảo nhất gần giống với email. Tất cả những công việc của SMTP đều cần thông qua email và liên quan mật thiết tới email. Ngoài ra, giao thức SMTP bao gồm 25 cổng giao thức hệ thống TCP giúp truyền tải thư điện tử trên trang web đơn giản và hiệu quả.
 
-![](Aspose.Words.8e82e7e2-0c34-48f7-8a03-c31d678390fd.003.png)
+![image](https://user-images.githubusercontent.com/65167293/157799972-627bd6d0-2672-4f2d-86d4-8ca3607f2167.png)
