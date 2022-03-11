@@ -1,4 +1,4 @@
-﻿![](Aspose.Words.6295156a-e84e-4902-9f0e-9b625a4893be.001.png)![DNS là gì? Cách sử dụng và các loại DNS server phổ biến](Aspose.Words.6295156a-e84e-4902-9f0e-9b625a4893be.002.jpeg)
+![image](https://user-images.githubusercontent.com/65167293/157798410-f3cb616e-13c9-4222-b11b-8453f900c64a.png)
 
 **“DNS là gì?”** – Thật ra, trong thế giới công nghệ nói chung và thiết kế website nói riêng, kể cả đối với những người học không chuyên sâu về công nghệ thông tin đều đã từng nghe hoặc biết đến cụm từ viết tắt này rồi.
 
@@ -8,17 +8,17 @@ Nhưng đừng quá lo lắng, tôi và bạn sẽ cùng ngồi lại để chia
 
 Chúng ta bắt đầu ngay nhé!.
 
-1. **Khái niệm DNS**
+**1. Khái niệm DNS**
 
 DNS (Domain Name System) hay hệ thống phân giải tên miền, có thể được giải thích là một hệ thống giúp con người và máy tính có thể “giao tiếp” với nhau một cách dễ dàng hơn (Vì ngôn ngữ giao tiếp của chúng ta là tên và chữ viết, còn máy tính chỉ có thể hiểu được các dãy số mà thôi!) Hệ thống giúp biên dịch tên miền (hostname) thành các dãy số, để máy tính có thể hiểu được.
 
-1. **Mục tiêu**
+**2. Mục tiêu**
 
 Nhìn chung, mục tiêu của DNS tương đối đơn giản, chỉ là giúp mọi người dễ nhớ hơn những chuỗi số dài, khó hiểu. Cơ mà vai trò của của nó lại rất quan trọng trong thời đại 4.0 – thời đại mà những kết nối ngày càng phát triển. Nó sẽ càng trở nên quan trọng hơn khí IPv6 (Giao thức liên mạng thế hệ 6) trở nên thịnh hành, thay thế IPv4 như 192.168.0.1 bằng một các gì đó như fdf8:82e4::53.
 
-![](Aspose.Words.6295156a-e84e-4902-9f0e-9b625a4893be.003.png)![Tổng quan về DNS](Aspose.Words.6295156a-e84e-4902-9f0e-9b625a4893be.004.jpeg)
+![image](https://user-images.githubusercontent.com/65167293/157798516-18b94aaf-51b5-44da-b656-f5a600fa1f61.png)
 
-1. **Chức năng của DNS**
+**3. Chức năng của DNS**
 
 Domain name system cũng giống như một cuốn danh bạ điện thoại. Nghĩa là thay vì bạn phải nhớ hàng tá số điện thoại với một đống con số, thì bạn chỉ cần nhớ tên của chủ nhân số điện thoại thôi. Mà trong trường hợp, thì số điện thoại sẽ tương ứng với địa chỉ IP của Website, còn tên chủ nhân chính là tên miền của website đó.
 
@@ -26,7 +26,7 @@ Ví dụ, khi bạn gõ “www.google.com” vào trình duyệt, máy chủ DNS
 
 Ngoài ra thì mỗi DNS còn có chức năng ghi nhớ những tên miền mà nó đã phân giải và trong những lần truy cập tới, nó sẽ ưu tiên sử dụng. Đó là lý do mà bạn sử dụng nhiều dịch vụ mạng như research thông tin, xem phim, chơi game giải trí,… nhanh chóng và dễ dàng hơn.
 
-1. **Cách hoạt động của DNS**
+**4. Cách hoạt động của DNS**
 
 DNS hoạt động từng bước theo cấu trúc của nó. Bước đầu là một truy vấn để lấy thông tin được gọi là “DNS query” .
 
@@ -36,21 +36,21 @@ Lại quay về với ví dụ tìm kiếm website www.google.com trong web brow
 
 - Nếu không thấy thông tin, nó sẽ quay về tìm trong cache – bộ nhớ tạm của phần cứng hay phần mềm. Nơi phổ biến nhất thường lưu thông tin này chính là bộ nhớ tạm của trình duyệt và bộ nhớ tạm ISP (Internet Service Providers.
 - Nếu không nhận được thông tin, bạn sẽ thấy mã bị lỗi hiện lên.
-1. **Các loại DNS Server và vai trò**
+**5. Các loại DNS Server và vai trò**
 
 Trên thực tế, có đến tổng cộng khoảng 4 server tham gia vào trong hệ thống phân giải tên miền, bao gồm:
 
-1. *Root Name Servers*
+*Root Name Servers*
 
 Cũng thường được gọi là Name Server. Đây là Server quan trọng nhất trong hệ thống cấp bậc của DNS. Bạn cũng có thể hiểu rằng, Root Name Server chính là một thư viện để định hướng tìm kiếm giúp bạn.
 
 Theo quy trình thực tế, sau khi nhận yêu cầu từ DNS Recursive Resolver, Root Name Server sẽ phản hồi rằng nó cần tìm trong các top-level domain name servers ( TLD Name Servers ) cụ thể nào.
 
-1. *DNS Recursor*
+*DNS Recursor*
 
 Như đã nhắc đến ở trên, “cạ cứng” này đóng vai trò như một nhân viên cần mẫn, nhận nhiệm vụ lấy và trả thông tin về cho trình duyệt để tìm đúng thông tin mà chúng cần. Nói cách khác, DNS Recursor giữ trách nhiệm liên lạc với các Server khác để phản hồi đến trình duyệt người dùng. Tất nhiên là trong quá trình lấy thông tin, đôi khi nó cũng sẽ cần đến sự giúp đỡ của Root DNS Server.
 
-1. *TLD Nameserver*
+*TLD Nameserver*
 
 Khi bạn muốn truy cập Google hay Facebook, thường, phần mở rộng của bạn sẽ là “.com” đúng không? Vậy tôi muốn bạn biết rằng, nó chính là một trong các Top-level Domain đấy. Và Server cho loại Top-level domain này gọi là TLD Nameserver. Đây là nhà quản lý toàn bộ hệ thống thông tin của một phần mở rộng tên miền chung.
 
@@ -62,9 +62,9 @@ Khi DNS Resolver tìm thấy Authoritative Nameserver, đó là lúc mà việc 
 
 Mặt khác, Authoritative Name Server có chứa thông tin cho biết tên miền đang gắn với địa chỉ nào. Nó sẽ cung cấp cho Recursive Resolver địa chỉ IP cần thiết tìm thấy trong danh mục những bản ghi của nó.
 
-![](Aspose.Words.6295156a-e84e-4902-9f0e-9b625a4893be.005.png)![Các loại dns server](Aspose.Words.6295156a-e84e-4902-9f0e-9b625a4893be.002.jpeg)
+![image](https://user-images.githubusercontent.com/65167293/157798630-da0dd28b-47e5-4640-a1d1-d2ce0bdc472e.png)
 
-1. **Sử dụng DNS như thế nào?**
+**6. Sử dụng DNS như thế nào?**
 
 Trong phần định nghĩa trên, ta có thể thấy được rằng các DNS Server đều có mối liên hệ với nhau. Đến đây thì nhiều bạn chắc chắn cũng sẽ “tẩu hỏa nhập ma” vì lăn tăn không biết nên sử dụng chúng như thế nào. Để tôi giúp bạn gỡ rối khoản này nhé!
 
@@ -78,11 +78,11 @@ B2: Double click vào Local Area Connection, chọn Properties – Internet Prot
 
 B3: Điền thông số DNS Server bạn muốn vào 2 ô “Preferred DNS Server” & “Alternate DNS Server”.
 
-*Lưu ý*
++*Lưu ý*+
 
 Các Hacker có thể thông qua DNS để đánh cắp những thông tin cá nhân của bạn. Vậy nên, hãy kiểm tra rõ tên truy cập của các Website, tránh truy cập vào các website giả mạo, các phần mềm không rõ nguồn gốc.
 
-1. **Các loại bản ghi DNS là gì?**
+**7. Các loại bản ghi DNS là gì?**
 
 ***A Record***
 
@@ -119,9 +119,9 @@ Các Hacker có thể thông qua DNS để đánh cắp những thông tin cá n
 - Là bản ghi đặc biệt trong Domain Name System, dùng để xác định chính xác dịch vụ nào chạy port nào
 - Bạn có thể thêm Priority, Name, Port, Points to,Weight, TTL.
 
-![](Aspose.Words.6295156a-e84e-4902-9f0e-9b625a4893be.006.png)![Các loại bản ghi DNS](Aspose.Words.6295156a-e84e-4902-9f0e-9b625a4893be.002.jpeg)
+![image](https://user-images.githubusercontent.com/65167293/157798839-dbc52dd0-8ba8-42fd-94a6-04c98f6c63a9.png)
 
-1. **Tại sao DNS dễ bị tấn công?**
+**8. Tại sao DNS dễ bị tấn công?**
 
 Quay lại phần Sử dụng DNS như thế nào, bạn có thấy một cảnh báo nhỏ của tôi về độ “mong manh, dễ vỡ” và dễ bị tấn côngkhông? Để tôi lý giải giúp bạn tại sao nhé!
 
@@ -145,9 +145,9 @@ Thông quan các màn battle “ngoài sáng trong tối” này, tội phạm m
 - Đánh cắp thông tin đăng nhập và mật khẩu
 - Trích xuất dữ liệu thẻ tín dụng và một số thông tin mật khác
 
-![](Aspose.Words.6295156a-e84e-4902-9f0e-9b625a4893be.007.png)![Tạo sao dùng Domain name system dễ bị tấn công](Aspose.Words.6295156a-e84e-4902-9f0e-9b625a4893be.002.jpeg)
+![image](https://user-images.githubusercontent.com/65167293/157798917-79dc34fa-fccd-4b86-979b-ce37eebdc352.png)
 
-1. **Danh sách DNS phổ biến nhất hiện nay**
+**9. Danh sách DNS phổ biến nhất hiện nay**
 
 ***Google Public DNS Server***
 
@@ -158,7 +158,7 @@ Thông quan các màn battle “ngoài sáng trong tối” này, tội phạm m
 - *Preferred DNS server: 8.8.8.8*
 - *Alternate DNS server: 8.8.4.4*
 
-![](Aspose.Words.6295156a-e84e-4902-9f0e-9b625a4893be.008.png)![Google publish dns server](Aspose.Words.6295156a-e84e-4902-9f0e-9b625a4893be.002.jpeg)
+![image](https://user-images.githubusercontent.com/65167293/157798978-fdacbdac-bb64-4b55-9920-8a624811dde4.png)
 
 ***OpenDNS***
 
@@ -178,7 +178,7 @@ Ngoài ra, OpenDNS cũng cung cấp 2 giải pháp miễn phí cho người dùn
 - *Preferred DNS server: 208.67.222.123*
 - *Alternate DNS server: 208.67.220.123*
 
-![](Aspose.Words.6295156a-e84e-4902-9f0e-9b625a4893be.009.png)![opendns](Aspose.Words.6295156a-e84e-4902-9f0e-9b625a4893be.002.jpeg)
+![image](https://user-images.githubusercontent.com/65167293/157799045-3e8f71a8-a39b-4769-b82f-02e4a849604e.png)
 
 ***Comodo Secure DNS***
 
