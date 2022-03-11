@@ -22,7 +22,7 @@ Khi tải bản free, bạn có thể chọn dạng portable (giải nén và d�
 
 Trong hướng dẫn này sẽ chọn dạng file cài đặt đối với bản Home Edition
 
-![https://news.cloud365.vn/wp-content/uploads/2019/10/mobaxterm1-1024x443.png](Aspose.Words.942b691c-0902-4b3b-ad79-ad4d5deee29b.001.png)
+![image](https://user-images.githubusercontent.com/65167293/157795810-74ce247d-d5b2-4207-88f6-3ac6f132c4d4.png)
 
 *Hình 1. 1   Tải MobaXterm Home Edition (bản Free) – tải file dạng cài đặt*
 
@@ -31,17 +31,16 @@ Sau khi tải về, tiếp tục thực hiện các thao tác cài đặt. Trong
 ### **2.2. Sử dụng MobaXterm để truy cập SSH**
 Sau khi cài đặt xong, tiến hành mở MobaXterm, ta sẽ có giao diện dưới.
 
-![https://news.cloud365.vn/wp-content/uploads/2019/10/mobaxterm2.png](Aspose.Words.942b691c-0902-4b3b-ad79-ad4d5deee29b.002.png)
-
+![image](https://user-images.githubusercontent.com/65167293/157795881-cb29bfdb-84ef-4f06-8e59-6c5b41180a5a.png)
 *Hình 2. 1   Giao diện của MobaXterm*
 
 Thưc hiện thao tác để mở cửa sổ kết nối SSH tới server của bạn. Ta chọn tab Section=> New section. Ngoài ra, có thể thực hiện tổ hợp phím Ctl + Shif + N , ta cũng có kết quả tương tự.
 
-![https://news.cloud365.vn/wp-content/uploads/2019/10/mobaxterm3-1.png](Aspose.Words.942b691c-0902-4b3b-ad79-ad4d5deee29b.003.png)
+![image](https://user-images.githubusercontent.com/65167293/157795909-6c48e6bd-285a-4764-94a8-331bc09fca22.png)
 
 Cửa sổ mới hiện ra sau thao tác trên sẽ có dạng như bên dưới. Chọn tab SSH
 
-![https://news.cloud365.vn/wp-content/uploads/2019/10/mobaxterm4-1024x737.png](Aspose.Words.942b691c-0902-4b3b-ad79-ad4d5deee29b.004.png)
+![image](https://user-images.githubusercontent.com/65167293/157795939-f31881ed-c405-4e85-a58b-52b30734e3c2.png)
 
 *Hình 2. 2    Cửa sổ hiển thị yêu cầu người dùng nhập vào để truy cập SSH.*
 
@@ -53,32 +52,31 @@ Tại cửa sổ trên, tiến hành nhập địa chỉ IP và port của máy 
 
 Sau khi nhập xong, chọn OK.
 
-![https://news.cloud365.vn/wp-content/uploads/2019/10/Moba4-1024x690.png](Aspose.Words.942b691c-0902-4b3b-ad79-ad4d5deee29b.005.png)
+![image](https://user-images.githubusercontent.com/65167293/157795956-1bb3623f-b904-4bcf-9e4b-06840b5fc9ac.png)
 
 Sau khi chọn OK, ta sẽ có giao diện để nhập user và mật khẩu của máy chủ. Thường sẽ sử dụng user có tên là root và mật khẩu được cung cấp trước đó.
 
-![https://news.cloud365.vn/wp-content/uploads/2019/10/Moba5-1024x381.png](Aspose.Words.942b691c-0902-4b3b-ad79-ad4d5deee29b.006.png)
+![image](https://user-images.githubusercontent.com/65167293/157796004-579144d9-5bce-4d75-b5c0-ceb6cdba9b91.png)
 
 *Hình 2. 3   Nhập tài khoản và mật khẩu.*
 
 Lưu ý, khi nhập mật khẩu sẽ không hiển thị dấu \* như các ứng dụng khác, bạn có thể chép mật khẩu ra notepad và paste lại ở màn hình trên.
 
 
-![https://news.cloud365.vn/wp-content/uploads/2019/10/Moba6-1024x605.png](Aspose.Words.942b691c-0902-4b3b-ad79-ad4d5deee29b.007.png)
-
+![image](https://user-images.githubusercontent.com/65167293/157796021-74b51aaf-0313-4d0c-91bf-9bc0971bbbe5.png)
 *Hình 2. 4   Màn hình sau khi nhập đúng mật khẩu cho tài khoản root*
 
 Ở màn hình trên, ta chọn Yes để mỗi lần đăng nhập lại ta không cần khai báo lại mật khẩu. Cũng lưu ý việc này nên cân nhắc vì mật khẩu sẽ được lưu trên máy của bạn. Trong hướng dẫn của cửa sổ trên cho phép xóa các mật khẩu được lưu này nếu bạn muốn.
 
 Sau khi chọn YES ta sẽ có màn hình dưới.
 
-![https://news.cloud365.vn/wp-content/uploads/2019/10/Moba7-1024x572.png](Aspose.Words.942b691c-0902-4b3b-ad79-ad4d5deee29b.008.png)
+![image](https://user-images.githubusercontent.com/65167293/157796039-5531e222-2bf2-40dd-9b2b-796556f46bfc.png)
 
 *Hình 2. 5   Màn hình CLI sau khi đăng nhập thành công.*
 
 Ta có thể kiểm tra phiên bản hệ điều hành bằng lệnh cat /etc/\*-release. Kết quả sẽ hiển thị dạng như bên dưới.
 
-![https://news.cloud365.vn/wp-content/uploads/2019/10/Moba8-1024x761.png](Aspose.Words.942b691c-0902-4b3b-ad79-ad4d5deee29b.009.png)
+![image](https://user-images.githubusercontent.com/65167293/157796059-d945e01a-8bc8-4230-acf8-eba381bf32b8.png)
 
 *Hình 2. 6    Kết quả lệnh cat /etc/\*-release*
 
@@ -92,29 +90,28 @@ Ngoài sử dụng SSH, MobaXterm còn có có thế sử dụng để thực hi
 
 Chọn tab sftp theo hình dưới.
 
-![https://news.cloud365.vn/wp-content/uploads/2019/10/Moba9.png](Aspose.Words.942b691c-0902-4b3b-ad79-ad4d5deee29b.010.png)
+![image](https://user-images.githubusercontent.com/65167293/157796079-7f5df9f9-08e9-4f54-b740-07e4daa7ad4d.png)
 
 *Hình 2. 7    Tab SFTP*
 
 Chọn biểu tượng upload
-
-![https://news.cloud365.vn/wp-content/uploads/2019/10/Moba10.png](Aspose.Words.942b691c-0902-4b3b-ad79-ad4d5deee29b.011.png)
+![image](https://user-images.githubusercontent.com/65167293/157796094-aceabea8-ec97-4b36-9f29-510faea63bc4.png)
 
 *Hình 2. 8   Chọn biểu tượng upload*
 
 Chọn file cần upload từ máy tính và chọn Open
 
-![https://news.cloud365.vn/wp-content/uploads/2019/10/Moba11.png](Aspose.Words.942b691c-0902-4b3b-ad79-ad4d5deee29b.012.png)
+![image](https://user-images.githubusercontent.com/65167293/157796115-0949d65a-207f-41ba-b767-d5cc402ff431.png)
 
 Sau khi chọn file, tùy thuộc vào dung lượng mà thời gian up sẽ là nhanh hay chậm. Ta có thể quan sát ở màn hình giống như bên dưới.
 
-![https://news.cloud365.vn/wp-content/uploads/2019/10/Moba12.png](Aspose.Words.942b691c-0902-4b3b-ad79-ad4d5deee29b.013.png)
+![image](https://user-images.githubusercontent.com/65167293/157796142-47734ab0-8f42-4326-b6a1-dea5190d3d8e.png)
 
 *Hình 2. 9  Màn hình theo dõi tỉ lệ up dữ liệu từ máy tính cá nhân lên server.*
 
 Sau khi thực hiện upload xong, ta có thể kiểm tra tại thư mục /root/ của máy chủ xem file đã có hay chưa bằng lệnh ls -alh tại thư mục /root/.
 
-![https://news.cloud365.vn/wp-content/uploads/2019/10/Moba13-1024x674.png](Aspose.Words.942b691c-0902-4b3b-ad79-ad4d5deee29b.014.png)
+![image](https://user-images.githubusercontent.com/65167293/157796164-be20eee2-6f4a-4e11-97fb-2c089149bce0.png)
 
 *Hình 2. 10   Kết quả file đã được đưa lên máy chủ.*
 ## **3. Kết luận**
